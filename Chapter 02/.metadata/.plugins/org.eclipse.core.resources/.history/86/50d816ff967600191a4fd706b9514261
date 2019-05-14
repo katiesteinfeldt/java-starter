@@ -6,15 +6,10 @@ public class Review {
 		String myName = "Katie";
 		float favoriteNumber = 13;
 		System.out.println(myName + "'s favorite number is " + favoriteNumber);
-		Review myReview = new Review();
-		myReview.exampleMethod("taco");
+		Review.exampleStatic();
 	}
 	
 	public static void exampleStatic() {
 		System.out.print("exampleStatic");
-	}
-	
-	public void exampleMethod(String message) {
-		System.out.print(message);
 	}
 }
