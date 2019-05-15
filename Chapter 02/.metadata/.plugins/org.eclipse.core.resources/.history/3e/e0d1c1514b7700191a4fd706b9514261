@@ -51,16 +51,13 @@ public class Review {
 //		int num2 = scan.nextInt();
 //		System.out.println("Sum is " + (num1 + num2));
 //		}
-		try {
-			FileReader file = new FileReader("hello");
-			BufferedReader reader = new BufferedReader(file);
-			String data;
-			while ((data = reader.readLine()) != null) {
-				System.out.println(data);
-			}
-			reader.close();
-		} catch (IOException error) {
-			System.out.println(error);
+		
+		FileReader file = new FileReader("hello");
+		BufferedReader reader = new BufferedReader(file);
+		String data;
+		while ((data = reader.readLine()) != null) {
+			System.out.println(data);
 		}
+		reader.close();
 }
 }
