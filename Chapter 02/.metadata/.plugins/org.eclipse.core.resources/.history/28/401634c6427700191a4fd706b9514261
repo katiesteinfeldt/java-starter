@@ -17,12 +17,9 @@ public class Review {
 //			System.out.println(breakfast[i]);
 //		}
 		
-		if (1 == 0 && 1 == 1) {
-			System.out.println("Statement is true");
-		}
-		else {
-			System.out.println("Statement is false");
-		}
+		if (1 == 1) {
+		System.out.println("Statement is true");
+	}
 	
 //	public static void exampleStatic() {
 //		System.out.print("exampleStatic");
@@ -31,5 +28,4 @@ public class Review {
 //	public void exampleMethod(String message) {
 //		System.out.print(message);
 //	}
-	}
 }

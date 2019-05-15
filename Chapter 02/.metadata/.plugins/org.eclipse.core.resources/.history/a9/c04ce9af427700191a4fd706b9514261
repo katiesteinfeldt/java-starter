@@ -8,21 +8,16 @@ public class Review {
 //		System.out.println(myName + "'s favorite number is " + favoriteNumber);
 //		Review myReview = new Review();
 //		myReview.exampleMethod("taco");
-//		String[] breakfast = new String[3];
-//		breakfast[0] = "Bacon";
-//		breakfast[1] = "Eggs";
-//		breakfast[2] = "Toast";
-//		
-//		for (int i = 0; i < breakfast.length; i++) {
-//			System.out.println(breakfast[i]);
-//		}
+		String[] breakfast = new String[3];
+		breakfast[0] = "Bacon";
+		breakfast[1] = "Eggs";
+		breakfast[2] = "Toast";
 		
-		if (1 == 0 && 1 == 1) {
-			System.out.println("Statement is true");
+		for (int i = 0; i < breakfast.length; i++) {
+			System.out.println(breakfast[i]);
 		}
-		else {
-			System.out.println("Statement is false");
-		}
+		
+	}
 	
 //	public static void exampleStatic() {
 //		System.out.print("exampleStatic");
@@ -31,5 +26,4 @@ public class Review {
 //	public void exampleMethod(String message) {
 //		System.out.print(message);
 //	}
-	}
 }
